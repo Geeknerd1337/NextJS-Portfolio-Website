@@ -4,10 +4,12 @@ import { Colors } from './Colors';
 
 const Background = styled.div`
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2vw;
+  z-index: 1;
 `;
 
 interface NavBarButtonProps {
@@ -35,7 +37,33 @@ const NavBarButton = styled(motion.div)<NavBarButtonProps>`
   }
 `;
 
+const NavTerminalBackground = styled.div`
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+
+  & > .commands {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    left: 0px;
+  }
+`;
+
 export const NavBarThemes = {
   Background,
   NavBarButton,
+  NavTerminalBackground,
 };
