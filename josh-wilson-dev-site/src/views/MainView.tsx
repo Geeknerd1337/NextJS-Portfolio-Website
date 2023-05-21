@@ -1,7 +1,9 @@
+import NavBar from '@/components/NavBar';
+
 export default function MainView() {
   return (
     <div>
-      <h1> MainView </h1>
+      <NavBar />
     </div>
   );
 }
