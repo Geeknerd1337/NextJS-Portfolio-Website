@@ -57,8 +57,19 @@ const NavTerminalBackground = styled.div`
     width: 100%;
     position: absolute;
     display: flex;
-    bottom: 0px;
-    left: 0px;
+    bottom: 1vw;
+    left: 1vw;
+    font-size: 2vh;
+    flex-direction: column;
+    font-family: 'Roboto Mono';
+    .command {
+      color: ${Colors.LightAmber};
+      white-space: pre-wrap;
+    }
+
+    .commandHistory {
+      color: ${Colors.LightBackground};
+    }
   }
 `;
 

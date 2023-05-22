@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { MainThemes } from '@/themes/MainThemes';
 
 import MainView from '@/views/MainView';
+import { useState } from 'react';
 
 export default function Home() {
   return (
