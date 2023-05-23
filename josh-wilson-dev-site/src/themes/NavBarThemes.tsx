@@ -60,7 +60,7 @@ const NavTerminalBackground = styled.div`
     bottom: 1vw;
     left: 1vw;
     font-size: 2vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
     font-family: 'Roboto Mono';
     .command {
       color: ${Colors.LightAmber};

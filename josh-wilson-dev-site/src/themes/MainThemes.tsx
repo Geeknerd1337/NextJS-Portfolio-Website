@@ -11,6 +11,17 @@ const Background = styled.div`
   align-items: center;
 `;
 
+const Holder = styled.div`
+  width: 50%;
+  position: absolute;
+  display: flex;
+  top: 10vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const MainThemes = {
   Background,
+  Holder,
 };

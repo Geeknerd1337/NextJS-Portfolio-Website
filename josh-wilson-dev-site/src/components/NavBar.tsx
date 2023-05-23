@@ -10,6 +10,7 @@ export default function NavBar({ setTab }: NavBarProps) {
   const [commandText, setCommandText] = useState('> ');
   const [scrollText, setScrollText] = useState('> ');
   const [commandCursor, setCommandCursor] = useState('_');
+  const [commandHistory, setCommandHistory] = useState<string[]>([]);
 
   //Command cursor blinking
   useEffect(() => {
@@ -44,6 +45,14 @@ export default function NavBar({ setTab }: NavBarProps) {
           onMouseLeave={() => {
             setCommandText('> ');
           }}
+          //On click set the tab to 0, and add the command to the command history
+          onClick={() => {
+            setTab(0);
+            setCommandHistory([
+              ...commandHistory,
+              commandText.substring(1, commandText.length),
+            ]);
+          }}
         >
           ABOUT
         </NavBarThemes.NavBarButton>
@@ -51,6 +60,13 @@ export default function NavBar({ setTab }: NavBarProps) {
           onMouseEnter={() => setCommandText('> cd /joshwilson/resume.txt')}
           onMouseLeave={() => {
             setCommandText('> ');
+          }}
+          onClick={() => {
+            setTab(1);
+            setCommandHistory([
+              ...commandHistory,
+              commandText.substring(1, commandText.length),
+            ]);
           }}
         >
           RESUME
@@ -62,6 +78,13 @@ export default function NavBar({ setTab }: NavBarProps) {
           onMouseLeave={() => {
             setCommandText('> ');
           }}
+          onClick={() => {
+            setTab(2);
+            setCommandHistory([
+              ...commandHistory,
+              commandText.substring(1, commandText.length),
+            ]);
+          }}
         >
           GAMES
         </NavBarThemes.NavBarButton>
@@ -70,19 +93,15 @@ export default function NavBar({ setTab }: NavBarProps) {
           onMouseLeave={() => {
             setCommandText('> ');
           }}
-        >
-          VFX
-        </NavBarThemes.NavBarButton>
-        <NavBarThemes.NavBarButton
-          onMouseEnter={() =>
-            setCommandText('> cd /joshwilson/personalinfo/contact.txt')
-          }
-          //On mouse leave set the scroll text back to the default as well as the command text
-          onMouseLeave={() => {
-            setCommandText('>');
+          onClick={() => {
+            setTab(3);
+            setCommandHistory([
+              ...commandHistory,
+              commandText.substring(1, commandText.length),
+            ]);
           }}
         >
-          CONTACT
+          VFX
         </NavBarThemes.NavBarButton>
       </NavBarThemes.Background>
       <NavBarThemes.NavTerminalBackground>
@@ -91,7 +110,16 @@ export default function NavBar({ setTab }: NavBarProps) {
             {scrollText}
             {commandCursor}
           </div>
-          <div className="commandHistory"></div>
+          <div className="commandHistory">
+            {commandHistory.map((command, index) => {
+              return (
+                <div key={index}>
+                  {command}
+                  <br />
+                </div>
+              );
+            })}
+          </div>
         </div>
       </NavBarThemes.NavTerminalBackground>
     </>
