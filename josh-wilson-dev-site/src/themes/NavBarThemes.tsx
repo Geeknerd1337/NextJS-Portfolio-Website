@@ -41,6 +41,7 @@ const NavTerminalBackground = styled.div`
   width: 100vw;
   height: 100vh;
   position: fixed;
+  pointer-events: none;
   background: radial-gradient(
     ellipse at center,
     rgba(0, 0, 0, 0) 70%,
