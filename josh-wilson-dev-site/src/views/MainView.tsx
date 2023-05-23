@@ -9,7 +9,7 @@ export default function MainView() {
   return (
     <MainThemes.Holder>
       <NavBar setTab={setTab} />
-      {tab}
+      {/* {tab} */}
       {tab === 0 && <About />}
     </MainThemes.Holder>
   );

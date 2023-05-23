@@ -37,7 +37,13 @@ const DelayedDisplay = (props: DelayedDisplayProps) => {
       {display && (
         <Cover initial={{ opacity: 1 }} animate={{ opacity: 0 }}></Cover>
       )}
-      {display && props.children}
+      <div
+        style={{
+          opacity: display ? 1 : 0,
+        }}
+      >
+        {props.children}
+      </div>
     </Holder>
   );
 };
