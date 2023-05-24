@@ -35,6 +35,16 @@ const NavBarButton = styled(motion.div)<NavBarButtonProps>`
     text-shadow: 0px 0px 10px ${Colors.Amber};
     box-shadow: 0px 0px 10px ${Colors.Amber};
   }
+
+  ${(props) =>
+    props.active &&
+    `
+      color: ${Colors.Background};
+      background-color: ${Colors.LightAmber};
+      transform: scale(1.2);
+      text-shadow: 0px 0px 10px ${Colors.Amber};
+      box-shadow: 0px 0px 10px ${Colors.Amber};
+    `}
 `;
 
 const NavTerminalBackground = styled.div`

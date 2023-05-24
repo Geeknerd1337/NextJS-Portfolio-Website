@@ -4,9 +4,10 @@ import { useState, useEffect } from 'react';
 interface NavBarProps {
   //Prop for a function to set a tab number
   setTab: (tab: number) => void;
+  tab: number;
 }
 
-export default function NavBar({ setTab }: NavBarProps) {
+export default function NavBar({ setTab, tab }: NavBarProps) {
   const [commandText, setCommandText] = useState('> ');
   const [scrollText, setScrollText] = useState('> ');
   const [commandCursor, setCommandCursor] = useState('_');
@@ -53,6 +54,7 @@ export default function NavBar({ setTab }: NavBarProps) {
               commandText.substring(1, commandText.length),
             ]);
           }}
+          active={tab === 0}
         >
           ABOUT
         </NavBarThemes.NavBarButton>
@@ -68,6 +70,7 @@ export default function NavBar({ setTab }: NavBarProps) {
               commandText.substring(1, commandText.length),
             ]);
           }}
+          active={tab === 1}
         >
           RESUME
         </NavBarThemes.NavBarButton>
@@ -85,6 +88,7 @@ export default function NavBar({ setTab }: NavBarProps) {
               commandText.substring(1, commandText.length),
             ]);
           }}
+          active={tab === 2}
         >
           GAMES
         </NavBarThemes.NavBarButton>
@@ -100,6 +104,7 @@ export default function NavBar({ setTab }: NavBarProps) {
               commandText.substring(1, commandText.length),
             ]);
           }}
+          active={tab === 3}
         >
           VFX
         </NavBarThemes.NavBarButton>

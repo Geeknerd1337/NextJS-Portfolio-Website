@@ -20,6 +20,9 @@ const Cover = styled(motion.div)`
 
 const Holder = styled.div`
   position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
 `;
 
 const DelayedDisplay = (props: DelayedDisplayProps) => {

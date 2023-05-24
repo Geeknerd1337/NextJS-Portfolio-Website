@@ -15,6 +15,7 @@ export const AboutThemes = {
     display: flex;
     position: relative;
     gap: 2vw;
+    padding-bottom: 4vh;
   `,
   InfoHolder: styled.div`
     display: flex;
@@ -44,5 +45,68 @@ export const AboutThemes = {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  `,
+  SkillsHolder: styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  `,
+  Skills: styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: ${Colors.Amber};
+    color: ${Colors.Background};
+    padding: 0.5vh;
+    font-family: 'Roboto Mono';
+    font-weight: 1000;
+    width: 100%;
+
+    border: 1px solid ${Colors.Amber};
+
+    height: 100%;
+
+    .title {
+      width: 100%;
+      font-size: 1.5vw;
+      font-family: 'Roboto Mono';
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    & > .description {
+      width: 100%;
+      background-color: ${Colors.Background};
+      padding: 1.5vh;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1vw;
+      flex-wrap: wrap;
+      display: flex;
+      color: ${Colors.Amber};
+      flex-grow: 1;
+      height: 100%;
+      font-family: 'Roboto Mono';
+    }
+  `,
+  ExperienceHolder: styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+
+    gap: 1vw;
+  `,
+  Experience: styled.div`
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
   `,
 };
