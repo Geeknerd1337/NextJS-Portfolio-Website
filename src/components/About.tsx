@@ -53,9 +53,9 @@ export default function About() {
 
           <DelayedDisplay delay={300}>
             <AboutThemes.Description>
-              Hello, I'm Josh Wilson! I am a full stack developer with a passion
-              for learning and a love for problem solving. I am currently
-              working as a developer at Harris Govern.
+              Hello, I&apos;m Josh Wilson! I am a full stack developer with a
+              passion for learning and a love for problem solving. I am
+              currently working as a developer at Harris Govern.
             </AboutThemes.Description>
           </DelayedDisplay>
         </AboutThemes.InfoHolder>
@@ -105,10 +105,10 @@ export default function About() {
                   <div>Desktop App Development</div>
                 </div>
                 <div className="description">
-                  I've worked on a variety of desktop applications written in
-                  C#, C++, and VB.NET. I have experience with WPF, WinForms,
-                  DevExpress, and more. I've worked with a SQL Server, Oracle,
-                  and MySQL.
+                  I&apos;ve worked on a variety of desktop applications written
+                  in C#, C++, and VB.NET. I have experience with WPF, WinForms,
+                  DevExpress, and more. I&apos;ve worked with a SQL Server,
+                  Oracle, and MySQL.
                 </div>
               </AboutThemes.Skills>
             </DelayedDisplay>
