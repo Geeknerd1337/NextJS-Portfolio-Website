@@ -5,6 +5,7 @@ import { Colors } from './Colors';
 export const AboutThemes = {
   Headshot: styled(motion.img)`
     height: 30vh;
+    transform: scaleX(-1);
     object-fit: cover;
   `,
   Holder: styled.div`
@@ -71,7 +72,7 @@ export const AboutThemes = {
 
     .title {
       width: 100%;
-      font-size: 1.5vw;
+      font-size: 1.25vw;
       font-family: 'Roboto Mono';
       display: flex;
       align-items: center;
@@ -82,6 +83,7 @@ export const AboutThemes = {
       width: 100%;
       background-color: ${Colors.Background};
       padding: 1.5vh;
+      font-size: 0.8vw;
       justify-content: center;
       align-items: flex-start;
       gap: 1vw;
@@ -99,14 +101,16 @@ export const AboutThemes = {
     justify-content: center;
     align-items: center;
     padding-top: 1vh;
+    flex-wrap: wrap;
+    padding-bottom: 4vh;
 
     gap: 1vw;
   `,
   Experience: styled.div`
     display: flex;
-    width: 50%;
+    width: 48%;
     justify-content: center;
     align-items: center;
-    height: 23vh;
+    height: 19vh;
   `,
 };

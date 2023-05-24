@@ -113,6 +113,34 @@ export default function About() {
               </AboutThemes.Skills>
             </DelayedDisplay>
           </AboutThemes.Experience>
+          <AboutThemes.Experience>
+            <DelayedDisplay delay={700}>
+              <AboutThemes.Skills>
+                <div className="title">
+                  <div>Server Side Apps with NextJS</div>
+                </div>
+                <div className="description">
+                  I have experience with NextJS, React, TypeScript, and more.
+                  This website is built with NextJS and React. I have experience
+                  with Docker, Kubernetes, and more.
+                </div>
+              </AboutThemes.Skills>
+            </DelayedDisplay>
+          </AboutThemes.Experience>
+          <AboutThemes.Experience>
+            <DelayedDisplay delay={800}>
+              <AboutThemes.Skills>
+                <div className="title">
+                  <div>Responsive Web Design</div>
+                </div>
+                <div className="description">
+                  I have experience with HTML, CSS, and JavaScript. I have used
+                  Bootstrap, Tailwind, and more. I have experience with
+                  responsive web design and mobile-first design.
+                </div>
+              </AboutThemes.Skills>
+            </DelayedDisplay>
+          </AboutThemes.Experience>
         </AboutThemes.ExperienceHolder>
       </AboutThemes.SkillsHolder>
     </>

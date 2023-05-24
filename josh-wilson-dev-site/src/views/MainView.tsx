@@ -1,6 +1,7 @@
 import NavBar from '@/components/NavBar';
 import { useState } from 'react';
 import About from '@/components/About';
+import Resume from '@/components/Resume';
 import { MainThemes } from '@/themes/MainThemes';
 
 export default function MainView() {
@@ -11,6 +12,7 @@ export default function MainView() {
       <NavBar setTab={setTab} tab={tab} />
       {/* {tab} */}
       {tab === 0 && <About />}
+      {tab === 1 && <Resume />}
     </MainThemes.Holder>
   );
 }
