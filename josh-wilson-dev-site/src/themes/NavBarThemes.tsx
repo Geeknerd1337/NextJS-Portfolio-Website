@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { Colors } from './Colors';
+import { down } from 'styled-breakpoints';
 
 const Background = styled.div`
   width: 100%;
@@ -23,6 +24,9 @@ const NavBarButton = styled(motion.div)<NavBarButtonProps>`
   font-family: 'Roboto Mono';
   font-weight: 400;
   font-size: 2vw;
+  ${down('sm')} {
+    font-size: 5vw;
+  }
   padding: 5px;
   margin-right: 5px;
   margin-left: 5px;

@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Colors } from '@/themes/Colors';
 import { useState, useEffect } from 'react';
+import { down } from 'styled-breakpoints';
 interface LinkButtonProps {
   src?: string;
   alt?: string;
@@ -10,6 +11,10 @@ interface LinkButtonProps {
 const LinkImage = styled.img`
   width: 2vw;
   height: 2vw;
+  ${down('sm')} {
+    width: 5vw;
+    height: 5vw;
+  }
   &:hover {
     transform: scale(1.1);
   }

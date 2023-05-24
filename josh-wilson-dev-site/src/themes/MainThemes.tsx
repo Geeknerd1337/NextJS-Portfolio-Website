@@ -1,10 +1,10 @@
 import styled from '@emotion/styled';
 import { Colors } from './Colors';
+import { down } from 'styled-breakpoints';
 
 const Background = styled.div`
   width: 100%;
   min-height: 100vh;
-
   background-color: ${Colors.Background};
   color: white;
   display: flex;
@@ -15,6 +15,10 @@ const Background = styled.div`
 
 const Holder = styled.div`
   width: 50%;
+
+  ${down('md')} {
+    width: 90%;
+  }
 
   display: flex;
   top: 10vh;

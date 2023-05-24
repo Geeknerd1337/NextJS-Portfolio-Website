@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Colors } from '@/themes/Colors';
 import DelayedDisplay from './DelayedDisplay';
+import { down } from 'styled-breakpoints';
 
 interface ProductCardProps {
   title?: string;
@@ -19,7 +20,9 @@ const ProductCardBackground = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 1;
   align-items: center;
+  width: 95%;
 `;
 
 const ProductImage = styled.img`
@@ -27,7 +30,7 @@ const ProductImage = styled.img`
 `;
 
 const Thumbail = styled.div`
-  height: 100%;
+  height: 10vh;
 `;
 
 const Info = styled.div`
@@ -48,6 +51,9 @@ const Title = styled.div`
   width: 100%;
   padding: 0.5vw;
   font-size: 1.25vw;
+  ${down('sm')} {
+    font-size: 4vw;
+  }
   font-family: 'Roboto Mono';
   font-weight: 1000;
   background-color: ${Colors.Amber};
@@ -60,14 +66,19 @@ const Description = styled.div`
   font-family: 'Roboto Mono';
   font-size: 1vw;
   padding: 0.5vw;
+  ${down('sm')} {
+    font-size: 3vw;
+  }
 `;
 
 const ProductLink = styled.a`
   transition: transform 0.1s ease-in-out;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   &:hover {
     cursor: pointer;
     transform: scale(1.1);
-    background-color: red;
   }
 `;
 

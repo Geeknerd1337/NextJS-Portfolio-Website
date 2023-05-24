@@ -1,12 +1,16 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { Colors } from './Colors';
-
+import { up, down } from 'styled-breakpoints';
 export const AboutThemes = {
   Headshot: styled(motion.img)`
     height: 30vh;
     transform: scaleX(-1);
     object-fit: cover;
+
+    ${down('sm')} {
+      height: 25vh;
+    }
   `,
   Holder: styled.div`
     padding-top: 5vh;
@@ -17,6 +21,10 @@ export const AboutThemes = {
     position: relative;
     gap: 2vw;
     padding-bottom: 4vh;
+
+    ${down('sm')} {
+      padding-bottom: 2vh;
+    }
   `,
   InfoHolder: styled.div`
     display: flex;
@@ -30,12 +38,19 @@ export const AboutThemes = {
     color: ${Colors.LightAmber};
     text-shadow: 0px 0px 10px ${Colors.Amber};
     padding-bottom: 2vh;
+
+    ${down('sm')} {
+      font-size: 4vw;
+    }
   `,
   Description: styled.div`
     font-size: 1vw;
     font-family: 'Roboto Mono';
     color: ${Colors.LightAmber};
     text-shadow: 0px 0px 10px ${Colors.Amber};
+    ${down('sm')} {
+      font-size: 2.5vw;
+    }
   `,
   LinkHolder: styled.div`
     display: flex;
@@ -58,6 +73,8 @@ export const AboutThemes = {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+
     flex-direction: column;
     background-color: ${Colors.Amber};
     color: ${Colors.Background};
@@ -77,6 +94,10 @@ export const AboutThemes = {
       display: flex;
       align-items: center;
       justify-content: flex-start;
+
+      ${down('sm')} {
+        font-size: 3vw;
+      }
     }
 
     & > .description {
@@ -93,6 +114,10 @@ export const AboutThemes = {
       flex-grow: 1;
       height: 100%;
       font-family: 'Roboto Mono';
+
+      ${down('sm')} {
+        font-size: 2.8vw;
+      }
     }
   `,
   ExperienceHolder: styled.div`
@@ -109,6 +134,9 @@ export const AboutThemes = {
   Experience: styled.div`
     display: flex;
     width: 48%;
+    ${down('sm')} {
+      width: 100%;
+    }
     justify-content: center;
     align-items: center;
     height: 19vh;

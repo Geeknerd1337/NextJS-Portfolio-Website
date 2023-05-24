@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { Colors } from '@/themes/Colors';
+import { down } from 'styled-breakpoints';
 
 const SkillHolder = styled(motion.div)`
   display: flex;
@@ -8,6 +9,11 @@ const SkillHolder = styled(motion.div)`
   align-items: center;
   font-family: 'Roboto Mono';
   font-size: 1vw;
+
+  ${down('sm')} {
+    font-size: 3vw;
+  }
+
   color: ${Colors.Amber};
   text-shadow: 0px 0px 5px ${Colors.LightAmber};
   border: 1px solid ${Colors.Amber};
