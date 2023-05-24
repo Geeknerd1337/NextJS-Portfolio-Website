@@ -40,7 +40,7 @@ export default function About() {
               <LinkButton
                 src="youtube.svg"
                 alt="YouTube"
-                href="https://github.com/Geeknerd1337"
+                href="https://www.youtube.com/channel/UCos1upnZahaueYs6CcUwhfg"
               />
             </DelayedDisplay>
           </AboutThemes.LinkHolder>

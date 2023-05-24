@@ -55,7 +55,7 @@ export default function Games() {
         image="rockwell.png"
         title="Rockwell County: Blackout - GameMaker"
         description="Rockwell County: Blackout is a second place winning contestant in Jamcraft14. A horror game inspired by the likes of resident evil and silent hill made in only two weeks."
-        link="https://joshomaton.itch.io/entropy-desert-colony-system"
+        link="https://saucyarmadillogames.itch.io/rockwell-county-blackout"
       />
     </GamesHolder>
   );
