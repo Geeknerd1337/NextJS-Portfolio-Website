@@ -12,6 +12,7 @@ export default function About() {
             <AboutThemes.Headshot
               src="headshot.png"
               alt="Josh Wilson Headshot"
+        
             />
           </DelayedDisplay>
           <AboutThemes.LinkHolder>

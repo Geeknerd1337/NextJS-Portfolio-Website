@@ -57,6 +57,14 @@ export default function Games() {
         description="Rockwell County: Blackout is a second place winning contestant in Jamcraft14. A horror game inspired by the likes of resident evil and silent hill made in only two weeks."
         link="https://saucyarmadillogames.itch.io/rockwell-county-blackout"
       />
+
+      <ProductCard
+        image="spiral.png"
+        title="The Spiral - Unity"
+        description="You are Helen, a former real-estate agent who's found herself, once again, trapped within seemingly endless corridors. You'll walk down the hallway with no seeming end and do your best to survive whatever it may throw at you."
+        link="https://saucyarmadillogames.itch.io/rockwell-county-blackout"
+      />
     </GamesHolder>
+
   );
 }
