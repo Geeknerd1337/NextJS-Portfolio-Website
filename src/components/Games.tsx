@@ -96,6 +96,28 @@ export default function Games() {
 
 
       /> 
+
+      <ProductCard
+        image="revolution.png"
+        title="Beat Down Revolution - Unity"
+        description="Beat Down Revolution is a rhythm based, high action FPS where you battle waves of enemies and unlock new beats in order to ascend the tower."
+        link="https://joshomaton.itch.io/beat-down-revolution"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="gordon.png"
+        title="Goodbye Gordon - Unity"
+        description="Hello Gordon, and welcome to your last day at the Black Mesa Research Facility. A cloning experiment has gone awry and you find yourself in the Black Mesa you know, but it isn't the Black Mesa you know! Dr. Coomer and his clones have gone and made a muck of things and it's up to you to find enough PlayCoins™ to appease them!"
+        link="https://joshomaton.itch.io/goodbye-gordon"    
+
+
+
+      /> 
+
+
     </GamesHolder>
 
   );
