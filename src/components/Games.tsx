@@ -115,7 +115,19 @@ export default function Games() {
 
 
 
+      />
+
+       <ProductCard
+        image="blinddate.png"
+        title="Blind Date - GameMaker"
+        description="After months of loneliness you’re finally ready to go on a date and, in your infinite wisdom, you find yourself here. Who’s Karen? What’s she all about? What can this mysterious woman teach you about love, kindness and yourself? A veritable sequel to the original, Blind Date improves on Blind Date (Classic) in many exciting ways. "
+        link="https://solscape.itch.io/blind-date"    
+
+
+
       /> 
+
+
 
 
     </GamesHolder>
