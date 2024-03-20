@@ -62,8 +62,30 @@ export default function Games() {
         image="spiral.png"
         title="The Spiral - Unity"
         description="You are Helen, a former real-estate agent who's found herself, once again, trapped within seemingly endless corridors. You'll walk down the hallway with no seeming end and do your best to survive whatever it may throw at you."
-        link="https://saucyarmadillogames.itch.io/rockwell-county-blackout"
+        link="https://joshomaton.itch.io/the-spiral"
+
+
       />
+
+      <ProductCard
+        image="filch.png"
+        title="FILCH - Unity"
+        description="Experience the thrill of sneaking through Hogwarts as a second-year Hufflepuff student, navigating past curfew while avoiding detection by the vigilant caretaker, Argus Filch. Test your wits and stealth in this immersive narrative adventure, where every step is a strategic challenge."
+        link="https://joshomaton.itch.io/filch-a-harry-potter-horror-fan-game"
+
+
+
+      />
+
+      <ProductCard
+        image="memory.png"
+        title="Memory of Fall - Unity"
+        description="Amidst life's challenges and perpetual setbacks, finding solace becomes imperative. Transport yourself to a vivid autumn memory, where crisp air, swirling leaves, and the enchantment of jack-o-lanterns offer a temporary respite, inviting you to uncover hidden treasures and momentarily transcend reality."
+        link="https://joshomaton.itch.io/memory-of-autumn"
+
+
+
+      /> 
     </GamesHolder>
 
   );
