@@ -78,6 +78,16 @@ export default function Games() {
       />
 
       <ProductCard
+        image="entropy2.png"
+        title="Entropy 2 - Unity"
+        description="Embark on an enthralling journey in 'Entropy,' a sequel to its predecessor, where unexpected events unfold as you awaken from stasis aboard a malfunctioning ship. Tasked with maintaining stability while navigating to a nearby space station, your decisions will determine whether the vessel thrives or succumbs to catastrophic failure, testing your strategic prowess and resilience."
+        link="https://joshomaton.itch.io/entropy-2"
+
+
+
+      /> 
+
+      <ProductCard
         image="memory.png"
         title="Memory of Fall - Unity"
         description="Amidst life's challenges and perpetual setbacks, finding solace becomes imperative. Transport yourself to a vivid autumn memory, where crisp air, swirling leaves, and the enchantment of jack-o-lanterns offer a temporary respite, inviting you to uncover hidden treasures and momentarily transcend reality."
