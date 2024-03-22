@@ -130,12 +130,48 @@ export default function Games() {
       <ProductCard
         image="stardust.png"
         title="Stardust Girl - GameMaker"
-        description=" "
-        link="https://solscape.itch.io/blind-date"    
+        description="Explore the adrenaline-fueled world of 'Stardust Girl,' a compact yet dynamic action game designed for fast-paced combat enthusiasts seeking tight controls and immersive gameplay. Navigate through a thrilling narrative as you dodge, take cover, and engage in intense shootouts against space station security forces while embarking on a mission to retrieve vital files for your employer. Channel your inner runner and prepare for an exhilarating challenge ahead. "
+        link="https://joshomaton.itch.io/stardust-girl"    
 
 
 
       /> 
+
+      <ProductCard
+        image="zixels.png"
+        title="Zixels 2 - GameMaker"
+        description="In 'Zixels 2,' set in an alternate 1985, navigate a dystopian city under alien rule as you rally survivors and fortify your camp against an impending assault. Explore, scavenge, and strategize to overthrow the oppressive regime of Lord Yeenu and secure humanity's future. "
+        link="https://joshomaton.itch.io/zixels-2"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="tyranny.png"
+        title="Wizard's Tyranny - GameMaker"
+        description="Step into the realm of Bolton, where opportunity awaits the intrepid seeker. Whether your quest is for glory, liberation from oppressive rule, or a journey of self-discovery, the kingdom beckons with endless possibilities. "
+        link="https://saucyarmadillogames.itch.io/wizards-tyranny"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="gunsmith.png"
+        title="Galactic Gunsmith - GameMaker"
+        description="Embark on an epic journey across three diverse planets in 'Galactic Gunsmith,' a gun-crafting RPG, as you pursue the mystery of your vanished father. Engage in thrilling battles, hone your skills, master the art of gunsmithing, and traverse distant galaxies in a quest for adventure and discovery. "
+        link="https://saucyarmadillogames.itch.io/galactic-gunsmith"    
+
+
+
+      /> 
+
+
+
+
+
+
 
 
 
