@@ -167,6 +167,70 @@ export default function Games() {
 
       /> 
 
+      <ProductCard
+        image="lovecraftian.png"
+        title="My Little Lovecraftian Horror - GameMaker"
+        description="Enter the eerie world of 'My Little Lovecraftian Horror,' where you nurture and guide your own eldritch companion. Manage its growth, feed on unsuspecting souls by day, and expand your influence by night in this captivating simulation experience."
+        link="https://saucyarmadillogames.itch.io/my-little-lovecraftian-horror"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="journey.png"
+        title="The Journey To Steel Mountain - GameMaker"
+        description="Embark on 'The Journey to Steel Mountain,' a post-apocalyptic steampunk RPG, navigating through a dynamically generated wasteland. Craft weaponry and traverse the unforgiving terrain as you strive towards the elusive destination of Steel Mountain in this immersive and challenging adventure."
+        link="https://saucyarmadillogames.itch.io/the-journey-to-steel-mountain"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="zixelsbeta.png"
+        title="Zixels - GameMaker"
+        description="In 'Zixels,' set in a dystopian 1984, thwart an alien-induced zombie apocalypse and reclaim control of the city from the malevolent Lord Yeenu. Engage in adrenaline-fueled action reminiscent of classic flash games, as you arm yourself, accumulate wealth, and battle hordes of the undead in this immersive shooter experience."
+        link="https://saucyarmadillogames.itch.io/zixels"    
+
+
+
+      /> 
+
+      <ProductCard
+        image="stack.png"
+        title="STACK STACK STACK - GameMaker"
+        description="Experience the challenge of strategic tower building in 'STACK STACK STACK,' where precision and speed are key to success. Test your reflexes as you match colors with corresponding arrows to construct the tallest tower within a limited time frame, offering an engaging and competitive gaming experience."
+        link="https://joshomaton.itch.io/stackstackstack"    
+
+
+
+      />
+
+      <ProductCard
+        image="ogentropy.png"
+        title="Entropy - GameMaker"
+        description="Immerse yourself in the high-stakes survival challenge of 'Entropy,' where you must maintain control of a malfunctioning spaceship hurtling towards destruction. Navigate the chaos of automated systems gone awry, ensuring the ship's integrity until your fate is secured, offering an intense and gripping gaming experience."
+        link="https://joshomaton.itch.io/entropy"    
+
+
+
+      />
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
 
 
 
