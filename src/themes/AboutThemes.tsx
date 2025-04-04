@@ -121,7 +121,6 @@ export const AboutThemes = {
     }
   `,
   ExperienceHolder: styled.div`
-    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -129,16 +128,26 @@ export const AboutThemes = {
     flex-wrap: wrap;
     padding-bottom: 4vh;
 
+    //2x2 grid
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
     gap: 1vw;
   `,
   Experience: styled.div`
     display: flex;
-    width: 48%;
+    width: 100%;
     ${down('sm')} {
       width: 100%;
     }
     justify-content: center;
     align-items: center;
     height: 19vh;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: 0.2s;
+      cursor: pointer;
+    }
   `,
 };

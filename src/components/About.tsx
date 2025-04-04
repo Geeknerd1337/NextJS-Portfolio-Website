@@ -12,7 +12,6 @@ export default function About() {
             <AboutThemes.Headshot
               src="headshot.png"
               alt="Josh Wilson Headshot"
-        
             />
           </DelayedDisplay>
           <AboutThemes.LinkHolder>
@@ -56,7 +55,7 @@ export default function About() {
             <AboutThemes.Description>
               Hello, I&apos;m Josh Wilson! I am a full stack developer with a
               passion for learning and a love for problem solving. I am
-              currently working as a developer at Harris Govern.
+              currently working as a full-stack web developer at Tiplink.
             </AboutThemes.Description>
           </DelayedDisplay>
         </AboutThemes.InfoHolder>
@@ -69,12 +68,14 @@ export default function About() {
               <div>SKILLS</div>
             </div>
             <div className="description">
+              <Skill skill="Docker" />
+              <Skill skill="React" />
+              <Skill skill="React Native" />
               <Skill skill="C#" />
               <Skill skill="C++" />
               <Skill skill="Unity" />
               <Skill skill="Unreal" />
-              <Skill skill="Docker" />
-              <Skill skill="React" />
+
               <Skill skill="TypeScript" />
               <Skill skill="JavaScript" />
               <Skill skill="Python" />
